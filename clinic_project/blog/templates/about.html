@@ -1,0 +1,10 @@
+{% extends 'layout/basic.html' %}
+{% block content %}
+<p class="p-about">This is clinic about:</p>
+{% for d in doctors %}
+    <div class="div-doc">
+        <h2 class="h2-doc">{{ d.uslugi }} :</h2>
+        <p class="p-doc">{{ d.content }}</p>
+    </div>
+{% endfor %}
+{% endblock content %}

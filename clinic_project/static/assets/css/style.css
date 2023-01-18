@@ -1,0 +1,37 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.ob{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: red;
+}
+.navbar{
+    background-color: aliceblue;
+    padding: 0;
+}
+.nav-ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+.nav-li{
+    padding: 15px;
+}
+.nav-li a{
+    color: red;
+}
+.nav-li a:hover{
+    color: black;
+}
+.div-doc{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: baseline;
+}
